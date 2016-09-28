@@ -15714,11 +15714,11 @@ Last modified: 8/20/10&lt;br&gt;
 <smd name="6" x="-2.05" y="-1.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
 <smd name="3" x="-2.05" y="0.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
 <smd name="2" x="-2.05" y="0.75" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
-<smd name="15" x="1.95" y="-0.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
-<smd name="14" x="1.95" y="-0.75" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
-<smd name="13" x="1.95" y="-1.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
-<smd name="16" x="1.95" y="0.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
-<smd name="17" x="1.95" y="0.75" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
+<smd name="15" x="2.05" y="-0.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
+<smd name="14" x="2.05" y="-0.75" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
+<smd name="13" x="2.05" y="-1.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
+<smd name="16" x="2.05" y="0.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
+<smd name="17" x="2.05" y="0.75" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
 <smd name="10" x="0.25" y="-2.05" dx="0.3" dy="0.9" layer="1" cream="no"/>
 <smd name="9" x="-0.25" y="-2.05" dx="0.3" dy="0.9" layer="1" cream="no"/>
 <smd name="8" x="-0.75" y="-2.05" dx="0.3" dy="0.9" layer="1" cream="no"/>
@@ -15726,7 +15726,7 @@ Last modified: 8/20/10&lt;br&gt;
 <smd name="11" x="0.75" y="-2.05" dx="0.3" dy="0.9" layer="1" cream="no"/>
 <smd name="12" x="1.25" y="-2.05" dx="0.3" dy="0.9" layer="1" cream="no"/>
 <smd name="1" x="-2.05" y="1.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
-<smd name="18" x="1.95" y="1.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
+<smd name="18" x="2.05" y="1.25" dx="0.3" dy="0.9" layer="1" rot="R90" cream="no"/>
 <smd name="EP" x="0" y="0" dx="2.1" dy="2.1" layer="1" cream="no"/>
 <rectangle x1="-1" y1="0.25" x2="-0.25" y2="1" layer="31"/>
 <rectangle x1="0.25" y1="0.25" x2="1" y2="1" layer="31"/>
@@ -15750,12 +15750,12 @@ Last modified: 8/20/10&lt;br&gt;
 <rectangle x1="0.125" y1="1.75" x2="0.375" y2="2.375" layer="31"/>
 <rectangle x1="0.625" y1="1.75" x2="0.875" y2="2.375" layer="31"/>
 <rectangle x1="1.125" y1="1.75" x2="1.375" y2="2.375" layer="31"/>
-<rectangle x1="1.625" y1="1.125" x2="2.25" y2="1.375" layer="31"/>
-<rectangle x1="1.625" y1="0.625" x2="2.25" y2="0.875" layer="31"/>
-<rectangle x1="1.625" y1="0.125" x2="2.25" y2="0.375" layer="31"/>
-<rectangle x1="1.625" y1="-0.375" x2="2.25" y2="-0.125" layer="31"/>
-<rectangle x1="1.625" y1="-0.875" x2="2.25" y2="-0.625" layer="31"/>
-<rectangle x1="1.625" y1="-1.375" x2="2.25" y2="-1.125" layer="31"/>
+<rectangle x1="1.75" y1="1.125" x2="2.375" y2="1.375" layer="31"/>
+<rectangle x1="1.75" y1="0.625" x2="2.375" y2="0.875" layer="31"/>
+<rectangle x1="1.75" y1="0.125" x2="2.375" y2="0.375" layer="31"/>
+<rectangle x1="1.75" y1="-0.375" x2="2.375" y2="-0.125" layer="31"/>
+<rectangle x1="1.75" y1="-0.875" x2="2.375" y2="-0.625" layer="31"/>
+<rectangle x1="1.75" y1="-1.375" x2="2.375" y2="-1.125" layer="31"/>
 </package>
 <package name="LOGO-L-TOP">
 <wire x1="-0.7732" y1="1.6244" x2="0.5268" y2="0.3244" width="0.2032" layer="1" curve="90"/>
