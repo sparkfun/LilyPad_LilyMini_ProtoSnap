@@ -20179,7 +20179,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="JP1" library="mike-temp" deviceset="USB_MICROB_PLUG" device="USB-B-MICRO-SMD-VERT" value="USB_MICROB_PLUGUSB-B-MICRO-SMD-VERT"/>
+<part name="JP1" library="mike-temp" deviceset="USB_MICROB_PLUG" device="USB-B-MICRO-SMD-VERT" value=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="BAT1" library="mike-temp" deviceset="BATTERY" device="20MM_PTH_KIT" value="CR2032"/>

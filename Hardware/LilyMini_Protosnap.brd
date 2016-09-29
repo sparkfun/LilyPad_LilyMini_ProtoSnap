@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="4" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="4" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -51,8 +51,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -720,44 +720,44 @@
 <vertex x="3.81" y="35.56"/>
 <vertex x="7.3715875" y="31.496"/>
 </polygon>
-<hole x="13.123915625" y="30.615959375" drill="0.508"/>
-<hole x="12.276084375" y="30.615959375" drill="0.508"/>
-<hole x="21.169115625" y="46.019140625" drill="0.508"/>
-<hole x="21.59303125" y="45.284896875" drill="0.508"/>
-<hole x="3.80696875" y="45.284896875" drill="0.508"/>
-<hole x="4.230884375" y="46.019140625" drill="0.508"/>
-<hole x="57.399203125" y="25.81594375" drill="0.508"/>
-<hole x="57.399203125" y="24.98405625" drill="0.508"/>
-<hole x="48.024384375" y="41.22171875" drill="0.508"/>
-<hole x="48.74481875" y="40.805775" drill="0.508"/>
-<hole x="29.99518125" y="40.805775" drill="0.508"/>
-<hole x="30.715615625" y="41.22171875" drill="0.508"/>
-<hole x="21.340796875" y="24.98405625" drill="0.508"/>
-<hole x="21.340796875" y="25.81594375" drill="0.508"/>
-<hole x="30.715615625" y="9.57828125" drill="0.508"/>
-<hole x="29.99518125" y="9.994225" drill="0.508"/>
-<hole x="48.74481875" y="9.994225" drill="0.508"/>
-<hole x="48.024384375" y="9.57828125" drill="0.508"/>
-<hole x="4.248671875" y="11.0236" drill="0.508"/>
-<hole x="4.248671875" y="11.8364" drill="0.508"/>
-<hole x="19.881328125" y="11.0236" drill="0.508"/>
-<hole x="19.881328125" y="11.8364" drill="0.508"/>
-<hole x="61.237853125" y="35.7886" drill="0.508"/>
-<hole x="61.237853125" y="36.6014" drill="0.508"/>
-<hole x="74.652146875" y="35.7886" drill="0.508"/>
-<hole x="74.652146875" y="36.6014" drill="0.508"/>
-<hole x="61.237853125" y="27.5336" drill="0.508"/>
-<hole x="61.237853125" y="28.3464" drill="0.508"/>
-<hole x="74.652146875" y="27.5336" drill="0.508"/>
-<hole x="74.652146875" y="28.3464" drill="0.508"/>
-<hole x="61.237853125" y="16.7386" drill="0.508"/>
-<hole x="61.237853125" y="17.5514" drill="0.508"/>
-<hole x="74.652146875" y="16.7386" drill="0.508"/>
-<hole x="74.652146875" y="17.5514" drill="0.508"/>
-<hole x="61.237853125" y="8.4836" drill="0.508"/>
-<hole x="61.237853125" y="9.2964" drill="0.508"/>
-<hole x="74.652146875" y="8.4836" drill="0.508"/>
-<hole x="74.652146875" y="9.2964" drill="0.508"/>
+<hole x="13.123915625" y="30.615959375" drill="0.381"/>
+<hole x="12.276084375" y="30.615959375" drill="0.381"/>
+<hole x="21.169115625" y="46.019140625" drill="0.381"/>
+<hole x="21.59303125" y="45.284896875" drill="0.381"/>
+<hole x="3.80696875" y="45.284896875" drill="0.381"/>
+<hole x="4.230884375" y="46.019140625" drill="0.381"/>
+<hole x="57.399203125" y="25.81594375" drill="0.381"/>
+<hole x="57.399203125" y="24.98405625" drill="0.381"/>
+<hole x="48.024384375" y="41.22171875" drill="0.381"/>
+<hole x="48.74481875" y="40.805775" drill="0.381"/>
+<hole x="29.99518125" y="40.805775" drill="0.381"/>
+<hole x="30.715615625" y="41.22171875" drill="0.381"/>
+<hole x="21.340796875" y="24.98405625" drill="0.381"/>
+<hole x="21.340796875" y="25.81594375" drill="0.381"/>
+<hole x="30.715615625" y="9.57828125" drill="0.381"/>
+<hole x="29.99518125" y="9.994225" drill="0.381"/>
+<hole x="48.74481875" y="9.994225" drill="0.381"/>
+<hole x="48.024384375" y="9.57828125" drill="0.381"/>
+<hole x="4.248671875" y="11.0236" drill="0.381"/>
+<hole x="4.248671875" y="11.8364" drill="0.381"/>
+<hole x="19.881328125" y="11.0236" drill="0.381"/>
+<hole x="19.881328125" y="11.8364" drill="0.381"/>
+<hole x="61.237853125" y="35.7886" drill="0.381"/>
+<hole x="61.237853125" y="36.6014" drill="0.381"/>
+<hole x="74.652146875" y="35.7886" drill="0.381"/>
+<hole x="74.652146875" y="36.6014" drill="0.381"/>
+<hole x="61.237853125" y="27.5336" drill="0.381"/>
+<hole x="61.237853125" y="28.3464" drill="0.381"/>
+<hole x="74.652146875" y="27.5336" drill="0.381"/>
+<hole x="74.652146875" y="28.3464" drill="0.381"/>
+<hole x="61.237853125" y="16.7386" drill="0.381"/>
+<hole x="61.237853125" y="17.5514" drill="0.381"/>
+<hole x="74.652146875" y="16.7386" drill="0.381"/>
+<hole x="74.652146875" y="17.5514" drill="0.381"/>
+<hole x="61.237853125" y="8.4836" drill="0.381"/>
+<hole x="61.237853125" y="9.2964" drill="0.381"/>
+<hole x="74.652146875" y="8.4836" drill="0.381"/>
+<hole x="74.652146875" y="9.2964" drill="0.381"/>
 <wire x1="1.905" y1="48.887359375" x2="2.808428125" y2="51.068428125" width="0.4064" layer="29" curve="-45"/>
 <wire x1="2.808428125" y1="51.068428125" x2="5.226434375" y2="52.07" width="0.4064" layer="29" curve="-45"/>
 <wire x1="5.226434375" y1="52.07" x2="50.165" y2="52.07" width="0.4064" layer="29"/>
@@ -7669,7 +7669,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </autorouter>
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="4.445" y="-17.78"/>
-<element name="JP1" library="mike-temp" package="USB-B-MICRO-SMD_VERT" value="USB_MICROB_PLUGUSB-B-MICRO-SMD-VERT" x="39.37" y="38.4175" smashed="yes">
+<element name="JP1" library="mike-temp" package="USB-B-MICRO-SMD_VERT" value="" x="39.37" y="38.4175" smashed="yes">
 <attribute name="NAME" x="40.275" y="40.4975" size="0.8128" layer="25" align="bottom-right"/>
 <attribute name="VALUE" x="40.37" y="35.4175" size="0.4064" layer="27"/>
 </element>
