@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -20282,10 +20282,10 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <part name="JP24" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value=""/>
 <part name="JP26" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="JP10" library="mike-temp" deviceset="M01" device="_POGOPAD_20M_NS_1S_ROUND"/>
 </parts>
@@ -20330,7 +20330,7 @@ SET JTAGICE3 TO "SWD" INTERFACE</text>
 <text x="149.86" y="144.78" size="1.778" layer="97">UNUSED
 SEWTAPS</text>
 <text x="165.1" y="7.62" size="2.54" layer="94">Mike Grusin and Angela Sheehan</text>
-<text x="243.84" y="7.62" size="2.54" layer="94">02</text>
+<text x="242.57" y="6.35" size="2.54" layer="94">10</text>
 <text x="106.68" y="40.64" size="1.778" layer="97">LILYMINI SEWTAPS</text>
 <text x="58.42" y="91.44" size="1.778" layer="97">S01</text>
 <text x="58.42" y="93.98" size="1.778" layer="97">S00</text>
