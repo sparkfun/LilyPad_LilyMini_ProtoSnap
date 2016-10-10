@@ -15676,12 +15676,12 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <pad name="P$1" x="0" y="0" drill="2.8"/>
 </package>
 <package name="1X01_POGOPIN_PAD_NOSILK_1SIDE_SQUARE">
-<pad name="P$1" x="0" y="0" drill="0.508" shape="square" stop="no"/>
-<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="29"/>
+<pad name="P$1" x="0" y="0" drill="0.508" diameter="1.27" shape="square" stop="no"/>
+<rectangle x1="-0.762" y1="-0.762" x2="0.762" y2="0.762" layer="29"/>
 </package>
 <package name="1X01_POGOPIN_PAD_NOSILK_1SIDE_ROUND">
-<pad name="P$1" x="0" y="0" drill="0.508" stop="no"/>
-<circle x="0" y="0" radius="0.381" width="0.381" layer="29"/>
+<pad name="P$1" x="0" y="0" drill="0.508" diameter="1.27" stop="no"/>
+<circle x="0" y="0" radius="0.508" width="0.508" layer="29"/>
 </package>
 <package name="QFN-24_ALT2">
 <description>&lt;h3&gt;24-pin QFN with Exposed Thermal pad&lt;/h3&gt;
@@ -15773,24 +15773,6 @@ Last modified: 8/20/10&lt;br&gt;
 <wire x1="-0.7232" y1="-0.3256" x2="0.0268" y2="-1.0756" width="0.2032" layer="1" curve="-90"/>
 <wire x1="0.0268" y1="-1.0756" x2="0.8768" y2="-1.5756" width="0.2032" layer="1" curve="90"/>
 </package>
-<package name="TEMT6000-SEN">
-<wire x1="2" y1="0.76" x2="2" y2="0.97" width="0.2032" layer="21"/>
-<wire x1="2" y1="0.97" x2="-0.96" y2="0.97" width="0.2032" layer="21"/>
-<wire x1="2" y1="-0.76" x2="2" y2="-0.99" width="0.2032" layer="21"/>
-<wire x1="2" y1="-0.99" x2="-0.99" y2="-0.99" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-0.05" x2="-2" y2="0.05" width="0.2032" layer="21"/>
-<smd name="EMITTER" x="-1.87" y="0.65" dx="1.1" dy="0.8" layer="1"/>
-<smd name="BASE" x="-1.87" y="-0.65" dx="1.1" dy="0.8" layer="1"/>
-<smd name="COLLECTOR" x="1.86" y="0.01" dx="1.1" dy="1" layer="1"/>
-<text x="-1.016" y="0.381" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.016" y="-0.762" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="ALS-PT19">
-<smd name="C" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<smd name="E" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-<wire x1="0.15875" y1="0.3175" x2="0.15875" y2="-0.3175" width="0.3048" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="MICROB-PLUG">
@@ -15867,34 +15849,6 @@ Last modified: 8/20/10&lt;br&gt;
 <wire x1="12.7" y1="-2.54" x2="12.7" y2="5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="-0.254" y="0.254" size="1.9304" layer="94">LilyPad</text>
-</symbol>
-<symbol name="LIGHTSENSOR">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="1.016" x2="-1.524" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-2.794" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.794" y1="0" x2="-2.286" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.524" y1="0.5" x2="-3.756" y2="1.116" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0.127" x2="-1.778" y2="0.127" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="0.127" x2="-2.286" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="0.762" x2="-2.54" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.254" x2="-2.159" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-2.159" y1="0.254" x2="-2.286" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.143" x2="-2.794" y2="1.143" width="0.1524" layer="94"/>
-<wire x1="-2.794" y1="1.143" x2="-4.191" y2="2.286" width="0.1524" layer="94"/>
-<text x="5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="E1" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C1" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16378,35 +16332,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <device name="" package="LOGO-L-TOP">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LIGHTSENSOR" prefix="U">
-<description>&lt;b&gt;Ambient Light Sensor&lt;/b&gt;
-Simple light detection sensor. Output varies with light intensity input. Spark Fun Electronics SKU : COM-08348</description>
-<gates>
-<gate name="G$1" symbol="LIGHTSENSOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TEMT6000" package="TEMT6000-SEN">
-<connects>
-<connect gate="G$1" pin="C1" pad="COLLECTOR"/>
-<connect gate="G$1" pin="E1" pad="EMITTER"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="ALS" package="ALS-PT19">
-<connects>
-<connect gate="G$1" pin="C1" pad="C"/>
-<connect gate="G$1" pin="E1" pad="E"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-11836" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -20168,6 +20093,100 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ALS-PT19">
+<wire x1="-0.1" y1="0.2" x2="-0.1" y2="-0.2" width="0.2032" layer="21"/>
+<smd name="C" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="E" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.1" y1="0.2" x2="-0.2" y2="0.2" width="0.2032" layer="21"/>
+<wire x1="-0.2" y1="0.2" x2="-0.2" y2="-0.2" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-0.2" x2="-0.2" y2="-0.2" width="0.2032" layer="21"/>
+</package>
+<package name="TEMT6000-SEN">
+<wire x1="2" y1="0.76" x2="2" y2="0.97" width="0.2032" layer="21"/>
+<wire x1="2" y1="0.97" x2="-0.96" y2="0.97" width="0.2032" layer="21"/>
+<wire x1="2" y1="-0.76" x2="2" y2="-0.99" width="0.2032" layer="21"/>
+<wire x1="2" y1="-0.99" x2="-0.99" y2="-0.99" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-0.05" x2="-2" y2="0.05" width="0.2032" layer="21"/>
+<smd name="EMITTER" x="-1.87" y="0.65" dx="1.1" dy="0.8" layer="1"/>
+<smd name="BASE" x="-1.87" y="-0.65" dx="1.1" dy="0.8" layer="1"/>
+<smd name="COLLECTOR" x="1.86" y="0.01" dx="1.1" dy="1" layer="1"/>
+<text x="-1.016" y="0.381" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.016" y="-0.762" size="0.4064" layer="27">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LIGHTSENSOR">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="1.016" x2="-1.524" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-2.794" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="0" x2="-2.286" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.524" y1="0.5" x2="-3.756" y2="1.116" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.127" x2="-1.778" y2="0.127" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.127" x2="-2.286" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="0.762" x2="-2.54" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.254" x2="-2.159" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-2.159" y1="0.254" x2="-2.286" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.143" x2="-2.794" y2="1.143" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="1.143" x2="-4.191" y2="2.286" width="0.1524" layer="94"/>
+<text x="5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="E1" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C1" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LIGHTSENSOR" prefix="U">
+<description>&lt;b&gt;Ambient Light Sensor&lt;/b&gt;
+Simple light detection sensor. Output varies with light intensity input. Spark Fun Electronics SKU : COM-08348</description>
+<gates>
+<gate name="G$1" symbol="LIGHTSENSOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TEMT6000" package="TEMT6000-SEN">
+<connects>
+<connect gate="G$1" pin="C1" pad="COLLECTOR"/>
+<connect gate="G$1" pin="E1" pad="EMITTER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ALS" package="ALS-PT19">
+<connects>
+<connect gate="G$1" pin="C1" pad="C"/>
+<connect gate="G$1" pin="E1" pad="E"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-11836" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20237,7 +20256,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="SEWTAPLS+" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="PLUS"/>
 <part name="SEWTAPLSOUT" library="LilyPad-Wearables" deviceset="SEWTAP" device="6" value="OUT"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="U3" library="mike-temp" deviceset="LIGHTSENSOR" device="ALS" value="ALS-PT19"/>
+<part name="U3" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="ALS-PT19"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-WHITE" device="1206"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-WHITE" device="1206"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED-WHITE" device="1206"/>
@@ -20268,6 +20287,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
+<part name="JP10" library="mike-temp" deviceset="M01" device="_POGOPAD_20M_NS_1S_ROUND"/>
 </parts>
 <sheets>
 <sheet>
@@ -20310,7 +20330,7 @@ SET JTAGICE3 TO "SWD" INTERFACE</text>
 <text x="149.86" y="144.78" size="1.778" layer="97">UNUSED
 SEWTAPS</text>
 <text x="165.1" y="7.62" size="2.54" layer="94">Mike Grusin and Angela Sheehan</text>
-<text x="243.84" y="7.62" size="2.54" layer="94">01</text>
+<text x="243.84" y="7.62" size="2.54" layer="94">02</text>
 <text x="106.68" y="40.64" size="1.778" layer="97">LILYMINI SEWTAPS</text>
 <text x="58.42" y="91.44" size="1.778" layer="97">S01</text>
 <text x="58.42" y="93.98" size="1.778" layer="97">S00</text>
@@ -20569,6 +20589,10 @@ S1 TO OTHER I/O PINS
 <instance part="FD3" gate="G$1" x="246.38" y="27.94"/>
 <instance part="FD4" gate="G$1" x="246.38" y="30.48"/>
 <instance part="LOGO4" gate="G$1" x="154.94" y="35.56"/>
+<instance part="JP10" gate="G$1" x="200.66" y="55.88" smashed="yes" rot="R180">
+<attribute name="VALUE" x="203.2" y="60.96" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="195.58" y="56.642" size="1.778" layer="95" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20934,6 +20958,11 @@ S1 TO OTHER I/O PINS
 <label x="50.8" y="167.64" size="1.778" layer="95"/>
 <wire x1="45.72" y1="167.64" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP10" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="185.42" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="USB+" class="0">
 <segment>
@@ -21090,27 +21119,27 @@ S1 TO OTHER I/O PINS
 </sheets>
 <errors>
 <approved hash="101,1,193.04,88.9,JP6,1,,,,"/>
-<approved hash="104,1,33.02,160.02,BAT1,-,GND,,,"/>
-<approved hash="104,1,43.18,160.02,BAT1,+,BATT3V,,,"/>
-<approved hash="202,1,104.14,127,U2,NC,,,,"/>
+<approved hash="104,1,35.56,167.64,BAT1,-,GND,,,"/>
+<approved hash="104,1,45.72,167.64,BAT1,+,BATT3V,,,"/>
 <approved hash="113,1,87.63,28.6893,D1,,,,,"/>
-<approved hash="113,1,210.82,41.91,LOGO1,,,,,"/>
+<approved hash="113,1,241.3,19.05,LOGO1,,,,,"/>
 <approved hash="113,1,196.063,94.1747,JP4,,,,,"/>
 <approved hash="113,1,210.337,94.1747,JP5,,,,,"/>
 <approved hash="113,1,196.063,89.0947,JP6,,,,,"/>
 <approved hash="113,1,210.337,89.0947,JP7,,,,,"/>
 <approved hash="113,1,196.063,84.0147,JP8,,,,,"/>
 <approved hash="113,1,210.337,84.0147,JP9,,,,,"/>
-<approved hash="113,1,39.9627,148.785,JP2,,,,,"/>
-<approved hash="113,1,210.82,41.91,LOGO2,,,,,"/>
+<approved hash="113,1,42.5027,156.405,JP2,,,,,"/>
+<approved hash="113,1,241.3,19.05,LOGO2,,,,,"/>
 <approved hash="113,1,30.9626,25.5947,JP3,,,,,"/>
-<approved hash="113,1,167.805,139.7,ST3,,,,,"/>
-<approved hash="113,1,167.805,142.24,ST2,,,,,"/>
-<approved hash="113,1,167.805,144.78,ST1,,,,,"/>
-<approved hash="113,1,206.062,140.97,D3,,,,,"/>
-<approved hash="113,1,216.222,140.97,D4,,,,,"/>
-<approved hash="113,1,226.382,140.97,D5,,,,,"/>
-<approved hash="113,1,236.542,140.97,D6,,,,,"/>
+<approved hash="113,1,165.265,144.78,ST3,,,,,"/>
+<approved hash="113,1,165.265,147.32,ST2,,,,,"/>
+<approved hash="113,1,165.265,149.86,ST1,,,,,"/>
+<approved hash="113,1,203.522,146.05,D3,,,,,"/>
+<approved hash="113,1,213.682,146.05,D4,,,,,"/>
+<approved hash="113,1,223.842,146.05,D5,,,,,"/>
+<approved hash="113,1,234.002,146.05,D6,,,,,"/>
+<approved hash="113,1,195.921,56.0747,JP10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
