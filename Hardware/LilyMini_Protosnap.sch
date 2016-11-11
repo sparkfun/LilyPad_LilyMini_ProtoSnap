@@ -20781,10 +20781,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="175.26" y="63.5" size="1.778" layer="97">PROGRAM WITH JTAGICE3
+<text x="175.26" y="60.96" size="1.778" layer="97">PROGRAM WITH JTAGICE3 OR ATMEL-ICE
 USE FIRST SIX PINS OF 10-PIN JTAG CONNECTOR
+(FOR ATMEL-ICE, PLUG INTO AVR, NOT ARM SIDE)
 NOTE SQUARE VIA ON PIN 1 (JP3)
-SET JTAGICE3 TO "SWD" INTERFACE</text>
+SET PROGRAMMER TO "SWD" INTERFACE</text>
 <text x="114.3" y="170.18" size="1.778" layer="97">SAMD11 VDD RANGE:
 1.62V TO 3.63V</text>
 <text x="175.26" y="106.68" size="1.778" layer="97">SWD PROGRAMMING</text>
@@ -20853,8 +20854,8 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <text x="71.12" y="78.74" size="1.778" layer="97">I7</text>
 <text x="71.12" y="76.2" size="1.778" layer="97">I2</text>
 <text x="71.12" y="73.66" size="1.778" layer="97">I3</text>
-<text x="71.12" y="71.12" size="1.778" layer="97">I1</text>
-<text x="71.12" y="68.58" size="1.778" layer="97">I0</text>
+<text x="71.12" y="71.12" size="1.778" layer="97">NMI</text>
+<text x="71.12" y="68.58" size="1.778" layer="97">I1</text>
 <text x="132.08" y="93.98" size="1.778" layer="97">I5</text>
 <text x="116.84" y="93.98" size="1.778" layer="97">S13</text>
 <text x="124.46" y="93.98" size="1.778" layer="97">S23</text>
@@ -20892,6 +20893,7 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <text x="7.62" y="106.68" size="1.778" layer="97">MPU</text>
 <text x="7.62" y="10.16" size="1.778" layer="97">SJ1 CONNECTS BUTTON TO !RST!
 (NO, USUALLY USE PA05/I5)</text>
+<text x="33.02" y="160.02" size="1.778" layer="97" rot="R180" align="center-left">TEST POINT</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -20899,11 +20901,11 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <instance part="JP1" gate="G$1" x="40.64" y="139.7" rot="MR0"/>
 <instance part="GND4" gate="1" x="53.34" y="129.54"/>
 <instance part="SUPPLY3" gate="VDD" x="154.94" y="104.14"/>
-<instance part="BAT1" gate="G$1" x="40.64" y="167.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.56" y="175.26" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.56" y="172.72" size="1.778" layer="96"/>
+<instance part="BAT1" gate="G$1" x="40.64" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="177.8" size="1.778" layer="95"/>
+<attribute name="VALUE" x="35.56" y="175.26" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="30.48" y="162.56"/>
+<instance part="GND2" gate="1" x="30.48" y="165.1"/>
 <instance part="SEWTAP+" gate="G$1" x="124.46" y="17.78" smashed="yes">
 <attribute name="NAME" x="127" y="17.78" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="121.92" y="12.7" size="1.778" layer="96"/>
@@ -20983,16 +20985,19 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <attribute name="VALUE" x="74.93" y="139.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="76.2" y="127"/>
-<instance part="Q1" gate="G$1" x="71.12" y="167.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.58" y="175.26" size="1.778" layer="95"/>
-<attribute name="VALUE" x="68.58" y="172.72" size="1.778" layer="96"/>
+<instance part="Q1" gate="G$1" x="71.12" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="68.58" y="177.8" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.58" y="175.26" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="109.22" y="152.4" rot="R90"/>
 <instance part="U2" gate="G$1" x="99.06" y="139.7"/>
 <instance part="GND6" gate="1" x="86.36" y="127"/>
-<instance part="SUPPLY2" gate="VDD" x="109.22" y="172.72"/>
+<instance part="SUPPLY2" gate="VDD" x="109.22" y="175.26"/>
 <instance part="GND7" gate="1" x="119.38" y="10.16"/>
-<instance part="JP2" gate="G$1" x="38.1" y="154.94"/>
+<instance part="JP2" gate="G$1" x="38.1" y="154.94" smashed="yes">
+<attribute name="VALUE" x="35.56" y="149.86" size="1.778" layer="96"/>
+<attribute name="NAME" x="43.18" y="152.527" size="1.778" layer="95"/>
+</instance>
 <instance part="Y1" gate="G$1" x="22.86" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.78" y="66.04" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.78" y="63.5" size="1.778" layer="96"/>
@@ -21073,9 +21078,9 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <instance part="FD3" gate="G$1" x="246.38" y="27.94"/>
 <instance part="FD4" gate="G$1" x="246.38" y="30.48"/>
 <instance part="LOGO4" gate="G$1" x="154.94" y="35.56"/>
-<instance part="JP9" gate="G$1" x="200.66" y="55.88" smashed="yes" rot="R180">
-<attribute name="VALUE" x="203.2" y="60.96" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="195.58" y="56.642" size="1.778" layer="95" rot="MR0"/>
+<instance part="JP9" gate="G$1" x="38.1" y="160.02" smashed="yes">
+<attribute name="VALUE" x="35.56" y="154.94" size="1.778" layer="96"/>
+<attribute name="NAME" x="43.18" y="159.258" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="SJ1" gate="G$1" x="27.94" y="20.32"/>
 </instances>
@@ -21104,7 +21109,7 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <pinref part="JP1" gate="G$1" pin="VCC"/>
 <wire x1="71.12" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="160.02" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="162.56" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
 <junction x="71.12" y="144.78"/>
 <wire x1="71.12" y1="154.94" x2="71.12" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
@@ -21118,7 +21123,7 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <wire x1="86.36" y1="139.7" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
 <junction x="86.36" y="144.78"/>
 <wire x1="48.26" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
-<label x="58.42" y="144.78" size="1.778" layer="95"/>
+<label x="59.69" y="145.415" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="144.78" x2="71.12" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
@@ -21136,8 +21141,8 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 <segment>
 <pinref part="BAT1" gate="G$1" pin="-"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="30.48" y1="165.1" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="167.64" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="167.64" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
@@ -21275,12 +21280,12 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="76.2" y1="167.64" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
-<junction x="109.22" y="167.64"/>
-<wire x1="109.22" y1="154.94" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
+<junction x="109.22" y="170.18"/>
+<wire x1="109.22" y1="154.94" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="SUPPLY2" gate="VDD" pin="VDD"/>
-<wire x1="109.22" y1="167.64" x2="109.22" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="170.18" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!BLUE!/SWDIO" class="0">
@@ -21443,15 +21448,15 @@ USE AUX VIN (3.5 TO 6V, AVOID CONTENTION WITH USB)</text>
 </net>
 <net name="BATT3V" class="0">
 <segment>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="160.02" x2="55.88" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="BAT1" gate="G$1" pin="+"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<label x="50.8" y="167.64" size="1.778" layer="95"/>
-<wire x1="45.72" y1="167.64" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP9" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
-<label x="185.42" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="51.435" y="171.45" size="1.778" layer="95"/>
+<wire x1="45.72" y1="170.18" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="170.18" x2="66.04" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="160.02" x2="55.88" y2="170.18" width="0.1524" layer="91"/>
+<junction x="55.88" y="170.18"/>
 </segment>
 </net>
 <net name="USB_P" class="1">
