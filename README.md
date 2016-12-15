@@ -3,11 +3,13 @@ LilyMini ProtoSnap
 
 [![alt text](https://cdn.sparkfun.com/assets/parts/1/1/9/0/5/14063-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/1/9/0/5/14063-01.jpg)
 
-[*LilyPad LilyMini ProtoSnap (https://www.sparkfun.com/products/14063)*](https://www.sparkfun.com/products/14063)
+[*LilyMini ProtoSnap (https://www.sparkfun.com/products/14063)*](https://www.sparkfun.com/products/14063)
 
-The LilyMini ProtoSnap is a great way to learn about creating interactive e-textile circuits. Like other ProtoSnap boards, the LilyMini ProtoSnap has all of its pieces connected together on the board, enabling you to test the circuit’s function before you sew. At the center of the board is a pre-programmed LilyMini microcontroller connected to a LilyPad Light Sensor, LilyPad Button and two pairs of LilyPad LEDs.
+The LilyMini ProtoSnap is a great way to create interactive e-textile circuits. At the center of the board is a pre-programmed LilyMini microcontroller connected to a LilyPad Light Sensor, LilyPad Button and two pairs of LilyPad LEDs.
 
-The LilyMini ProtoSnap ships with pre-loaded code that exercises all the LilyPad pieces connected to it. This sample code has three modes, which can be selected by pressing the LilyPad Button on the bottom-left side of the ProtoSnap. The built-in RGB LED on the LilyMini will change color to indicate which mode has been selected:
+Like other ProtoSnap boards, the LilyMini ProtoSnap has all of these parts connected together on the board, enabling you to play with the circuit before you sew. When you're ready to make your project, snap out the parts and sew them together!
+
+The LilyMini ProtoSnap ships with pre-loaded code that exercises all the LilyPad pieces connected to it. The sample code has three modes, which can be selected by pressing the LilyPad Button on the bottom-left side of the ProtoSnap. The built-in RGB LED on the LilyMini will change color to indicate which mode has been selected:
 
 * White: All LEDs on.
 * Magenta: LEDs fade in and out in a breathing pattern. When the light sensor is covered, LEDs fade faster.
@@ -18,7 +20,9 @@ You can use the built-in code to make your own projects (see the hook-up guide b
 Repository Contents
 -------------------
 
-This repository includes the hardware design files and binaries for the release firmware. **Reprogramming information and source code are coming soon (1/1/17).** 
+This repository includes the hardware design files and binaries for the release firmware.
+
+**Reprogramming information and source code are coming soon (1/1/17).** 
 
 * **/Documentation** - Data sheets, additional product information
 * **/Firmware** - Preinstalled code 
