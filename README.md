@@ -15,13 +15,12 @@ The LilyMini ProtoSnap ships with pre-loaded code that exercises all the LilyPad
 * Magenta: LEDs fade in and out in a breathing pattern. When the light sensor is covered, LEDs fade faster.
 * Cyan/Blue: When the board is in darkness, the LEDs will twinkle (perfect for night-lights)
 
-You can use the built-in code to make your own projects (see the hook-up guide below), or you can reprogram the LilyMini using the Arduino system (**Reprogramming instructions coming soon.)** 
+You can use the built-in code to make your own projects (see the hook-up guide below), or you can reprogram the LilyMini using the Arduino system . **Reprogramming instructions coming soon (1/1/17).** 
 
 Repository Contents
 -------------------
 
-This repository includes the hardware design files and binaries for the release firmware.
-
+This repository includes the hardware design files and binaries for the release firmware. <br>
 **Reprogramming information and source code are coming soon (1/1/17).** 
 
 * **/Documentation** - Data sheets, additional product information
