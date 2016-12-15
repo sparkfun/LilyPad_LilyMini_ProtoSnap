@@ -1,21 +1,19 @@
-SparkFun LilyPad LilyMini ProtoSnap
+LilyMini ProtoSnap
 ========================================
 
--> [![alt text](https://cdn.sparkfun.com/assets/parts/1/1/9/0/5/14063-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/1/9/0/5/14063-01.jpg) <-
+[![alt text](https://cdn.sparkfun.com/assets/parts/1/1/9/0/5/14063-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/1/9/0/5/14063-01.jpg)
 
 [*LilyPad LilyMini ProtoSnap (https://www.sparkfun.com/products/14063)*](https://www.sparkfun.com/products/14063)
 
-The LilyMini ProtoSnap is a great way to get started learning about creating interactive e-textile circuits before you start sewing. Like other LilyPad ProtoSnap boards, the LilyMini ProtoSnap has all of its pieces wired together out of the box, enabling you to test the circuit’s function before you sew. At the center of the board is a pre-programmed LilyMini microcontroller connected to a LilyPad Light Sensor, LilyPad Button and two pairs of LilyPad LEDs.
+The LilyMini ProtoSnap is a great way to learn about creating interactive e-textile circuits. Like other ProtoSnap boards, the LilyMini ProtoSnap has all of its pieces connected together on the board, enabling you to test the circuit’s function before you sew. At the center of the board is a pre-programmed LilyMini microcontroller connected to a LilyPad Light Sensor, LilyPad Button and two pairs of LilyPad LEDs.
 
-The LilyMini ProtoSnap ships with pre-loaded code that uses all the LilyPad pieces connected to it. This sample code has three modes, which can be selected by pressing the LilyPad Button on the bottom-left side of the ProtoSnap. The built-in RGB LED on the LilyMini will change color to indicate which mode has been selected:
+The LilyMini ProtoSnap ships with pre-loaded code that exercises all the LilyPad pieces connected to it. This sample code has three modes, which can be selected by pressing the LilyPad Button on the bottom-left side of the ProtoSnap. The built-in RGB LED on the LilyMini will change color to indicate which mode has been selected:
 
 * White: All LEDs on.
 * Magenta: LEDs fade in and out in a breathing pattern. When the light sensor is covered, LEDs fade faster.
-* Cyan/Blue: LEDs off. When the light sensor is covered, LEDs will twinkle.
+* Cyan/Blue: When the board is in darkness, the LEDs will twinkle (perfect for night-lights)
 
-The LilyMini board, at the center of the ProtoSnap, has a built-in battery holder for a CR2032 battery (included). The board can also be powered through the microUSB port while connected to a computer for reprogramming. On the opposite side of the LilyMini you will find the SAMD11 brain, which controls the ProtoSnap.
-
-Note: A portion of this sale is given back to Dr. Leah Buechley for continued development and education in e-textiles.
+You can use the built-in code to make your own projects (see the hook-up guide below), or you can reprogram the LilyMini using the Arduino system (**Reprogramming instructions coming soon.)** 
 
 Repository Contents
 -------------------
@@ -29,20 +27,14 @@ This repository includes the hardware design files and binaries for the release 
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilymini-protosnap-hookup-guide)** - Basic hookup guide for the LilyMini ProtoSnap
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilymini-protosnap-hookup-guide)** - Basic hookup guide and example projects for the LilyMini ProtoSnap
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is _**open source**_! Please review the LICENSE.md file for license information. If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com. This information is distributed as-is; no warranty is given.
 
-Please review the LICENSE.md file for license information. 
-
-If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
-
-Distributed as-is; no warranty is given.
-
-- Your friends at SparkFun.
+Have fun! - Your friends at SparkFun.
 
 Acknowledgement
 ---------------
